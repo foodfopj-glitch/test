@@ -1,0 +1,3 @@
+# Вариант с PyQt6 (лицензия GPL) — если PySide6 не подходит/не ставится.
+-r requirements.txt
+PyQt6>=6.6

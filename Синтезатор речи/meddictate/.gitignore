@@ -1,0 +1,16 @@
+# сборка
+build/
+dist/
+*.spec.bak
+__pycache__/
+*.pyc
+
+# модель (качается отдельно: python tools/fetch_model.py)
+model/
+*.zip
+
+# локальные настройки и логи
+*.log
+.venv/
+venv/
+.env

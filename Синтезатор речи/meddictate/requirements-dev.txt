@@ -1,0 +1,6 @@
+-r requirements.txt
+pyinstaller>=6.6       # сборка exe
+pytest>=8.0            # тесты
+pyflakes>=3.2          # проверка кода
+# для сквозного теста на синтезированной речи (tests/tts_e2e.py --speak):
+piper-tts>=1.2
